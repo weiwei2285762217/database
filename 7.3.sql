@@ -1,0 +1,4 @@
+--select COUNT(*) from St_Info
+--select SUBSTRING(St_Name,1,1) from St_Info
+--select YEAR(GETDATE()),MONTH(GETDATE()),DAY(GETDATE())
+--select st_name,MAX(YEAR(getdate())-YEAR(birthdate))  from St_Info where Cl_Name like '²ÄÁÏ%'

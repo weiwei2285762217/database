@@ -1,0 +1,7 @@
+--create view vDCname
+--as
+--select distinct Cl_Name,D_ID from St_Info 
+--create view vNameScore
+--as
+--select st.St_ID,st.St_Name,sc.C_NO,c.C_Name,sc.Score,c.C_Credit,st.Cl_Name
+--from St_Info st inner join S_C_Info sc on st.St_ID=sc.St_ID inner join C_Info c on sc.C_NO = c.C_No  
